@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    
+}
+.left-side{
+    position: relative;
+    display: flex;
+}
+.fern {
+    position: relative;
+}
+a {
+    color: white;
+}
+.photo {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: small;
+}
