@@ -48,11 +48,20 @@ a {
 .right-side {
     display: flex;
     flex-direction: column;
-    padding-left: 16px;
-    background-color: rgb(229, 227, 227);
     font-family: sans-serif;
 }
 
+.top-info, .button, .member {
+    background-color: rgb(229, 227, 227);
+    padding-left: 16px;
+}
+.form {
+    padding-left: 16px;
+}
+.names, .contact, .passwords {
+    display: flex;
+    gap: 5px;
+}
 .createAccount {
     background-color: #596d48;
     color: white;
@@ -66,4 +75,6 @@ a {
 
 .form {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
