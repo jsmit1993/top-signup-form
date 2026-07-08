@@ -60,14 +60,16 @@ a {
 }
 .names, .contact, .passwords {
     display: flex;
-    gap: 5px;
+    gap: 25px;
+    padding-top: 5px;
 }
 .createAccount {
     background-color: #596d48;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     border: none;
+    
 }
 .logIn {
     color: #596d48;
@@ -77,4 +79,39 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 4px 4px -2px rgb(0,0,0,0.5);
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+label {
+    font-size: small;
+}
+
+.passwords {
+    padding-bottom: 5px;
+}
+.intro {
+    margin-top: 40px;
+}
+.intro, .secondComment, .button, .member {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.firstNames, .lastNames, .emails, .phoneNumbers, .password, .confirmPassword {
+    display: flex;
+    flex-direction: column;
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+input:user-valid {
+    border-color: green;
 }
