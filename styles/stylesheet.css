@@ -44,3 +44,26 @@ a {
     color: white;
     font-size: small;
 }
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    background-color: rgb(229, 227, 227);
+    font-family: sans-serif;
+}
+
+.createAccount {
+    background-color: #596d48;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.logIn {
+    color: #596d48;
+}
+
+.form {
+    background-color: white;
+}
