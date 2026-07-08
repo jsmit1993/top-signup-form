@@ -5,6 +5,7 @@ body {
 .left-side{
     position: relative;
     display: flex;
+    flex-direction: column;
 }
 .fern {
     position: relative;
@@ -12,12 +13,27 @@ body {
 a {
     color: white;
 }
+.odinhead{
+    display: flex;
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    max-height: 100px;
+    color: white;
+    bottom: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.odinshead {
+    position: relative;
+}
+
 .photo {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 100px;
+    left: 30px;
     color: white;
     font-size: small;
 }
